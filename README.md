@@ -30,4 +30,4 @@ node fetch.js [root]
 
 root: root since you want to fetch
 
-> Also you can go to [MAM-explorer](https://iota-mam-explorer.now.sh/#/) and start fetching the data
+> Also you can go to [MAM-explorer](https://iota-mam-explorer.now.sh/#/){:target="_blank"} and start fetching the data
