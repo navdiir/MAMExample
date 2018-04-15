@@ -1,0 +1,19 @@
+{
+  "name": "mamexample",
+  "version": "0.0.1",
+  "description": "An example of sending data with MAM to tangle",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "IOTA",
+    "tangle",
+    "MAM"
+  ],
+  "author": "@chrislaive",
+  "license": "MIT",
+  "dependencies": {
+    "iota.lib.js": "^0.4.7"
+  }
+}
