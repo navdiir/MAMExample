@@ -16,7 +16,8 @@ if( process.argv[2] == undefined){          //Getting the time in seconds for th
 //Create a JSON as message
 
 function start(){
-	date = new Date().toISOString().replace('T', ' ').substr(0, 19)
+	//date = new Date().toISOString().replace('T', ' ').substr(0, 19)
+	date = new Date(Date.now()).toLocaleString()
     let message = { 'Message' : i, 'Date' : date}
 	console.log('Start sending data to Tangle...')
 	let messageS = JSON.stringify(message)
