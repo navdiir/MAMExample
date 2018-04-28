@@ -2,7 +2,7 @@
 
 const Mam = require('./lib/mam.node.js')
 const IOTA = require('iota.lib.js')
-const iota = new IOTA({ 'provider': 'http://node02.iotatoken.nl:14265' })
+const iota = new IOTA({ 'provider': 'http://iotahosting.org:14265' })
 
 let root = process.argv[2]
 let mamState = Mam.init(iota)
