@@ -1,8 +1,8 @@
 'use strict'
 
-const Mam = require('./lib/mam.node.js')
+const Mam = require('../lib/mam.node.js')
 const IOTA = require('iota.lib.js')
-const iota = new IOTA({ 'provider': 'http://iotahosting.org:14265' })
+const iota = new IOTA({ 'provider': 'https://pow1.iota.community:443' })
 
 let root = process.argv[2]
 let mamState = Mam.init(iota)
