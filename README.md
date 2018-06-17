@@ -18,7 +18,8 @@ After you've successfully installed you can execute index for a simple user expe
 node index.js [sec] [mode]
 ```
 
-sec: time for loop in seconds
+sec: time for loop in seconds 
+
 mode: can be 3 (Public: 1, Private: 2, Restricted: 3)
 
 i.e. (Send data in private mode each 15 seconds)
