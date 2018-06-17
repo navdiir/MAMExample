@@ -15,10 +15,10 @@ npm i
 After you've successfully installed you can execute index for a simple user experience
 
 ```
-node index.js [seg] [mode]
+node index.js [sec] [mode]
 ```
 
-seg: time for loop in seconds
+sec: time for loop in seconds
 mode: can be 3 (Public: 1, Private: 2, Restricted: 3)
 
 i.e. (Send data in private mode each 15 seconds)
