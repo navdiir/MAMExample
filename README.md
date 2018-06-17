@@ -40,5 +40,5 @@ i.e. (for our last example sending data in private mode each 15 seconds)
 
 
 ``` 
-Also you can go to [MAM-explorer](https://mam-explorer.firebaseapp.com/) and start fetching the data
+Also you can go to [MAM-explorer](https://mam-explorer.firebaseapp.com) and start fetching the data
 ```
